@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,300,400,700);
+
+body {
+    font-family: 'Raleway'
+}
+
+@media (max-width: 576px) {
+    .logo-image {
+        max-width: 100px;
+    }
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    .location-wrapper {
+        position: absolute;
+        right: 10px;
+        left: 0;
+        bottom: 0;
+    }
+}
